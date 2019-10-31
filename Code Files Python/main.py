@@ -75,7 +75,6 @@ class Results():
 def activeLearningMultiple(Data, Results):
 
 	for runNumber in range(numberOfMultipleRuns):
-		print("Run #: ", runNumber);
 		activeLearning(Data, Results, runNumber);
 
 	Results.calculateAvgAccuracy();
@@ -110,7 +109,6 @@ def activeLearning(Data, Results, runNumber):
 		for x in kValuesSelected:
 			adjustSamples(Data, x, runNumber);
 	
-	print(accuracy);
 
 def adjustSamples(Data, sampleNum, runNumber):
 
