@@ -215,7 +215,7 @@ def main():
 	# Draw graph for MindReading data
 	drawGraph(mindReadingResultsRandom, mindReadingResultsUncertaintyBased);
 	
-	# ----------------------------------------------------------------------------------------------
+	# ---------------------------------------------------------------------------------------------
 
 	
 	# Load data for MMI dataset to run for random sampling
