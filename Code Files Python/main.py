@@ -27,7 +27,7 @@ class Data():
 	def loadData(self):
 		labels = ["testing", "training", "unlabeled"];
 		typesOfDS = ["Matrix", "Labels"];
-		dataDirectory = "Data for Assignment 3";
+		dataDirectory = "Data";
 		parentDir = os.path.dirname(os.getcwd());
 		datasetDir = os.path.join(parentDir, dataDirectory, self.datasetName);
 		
